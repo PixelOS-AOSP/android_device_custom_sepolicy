@@ -1,2 +1,3 @@
 # PIHooks
-system_public_prop(pih_disable_prop)
+system_public_prop(pih_build_prop)
+system_public_prop(pih_features_prop)

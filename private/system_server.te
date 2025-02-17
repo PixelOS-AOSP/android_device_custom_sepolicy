@@ -1,2 +1,3 @@
 # PIH
 add_service(system_server, pih_manager_service);
+get_prop(system_server, pih_features_prop)
