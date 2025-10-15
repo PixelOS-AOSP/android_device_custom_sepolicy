@@ -1,0 +1,2 @@
+# Freeform
+add_service(system_server, lmo_freeform_service);
