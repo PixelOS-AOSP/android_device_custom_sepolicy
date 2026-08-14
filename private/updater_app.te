@@ -1,0 +1,10 @@
+###
+### A domain for the PixelOS Updater app.
+###
+type updater_app, domain;
+
+app_domain(updater_app)
+priv_app_domain(updater_app)
+
+# Allow the Updater to discover Android's system update service.
+allow updater_app system_update_service:service_manager find;
