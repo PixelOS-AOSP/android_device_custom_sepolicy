@@ -16,6 +16,24 @@
       "message": "Maybe not required anymore?",
       "revId": "1e3002014520112406a061131e4207b305c696fe",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c974e6c5_7f943771",
+        "filename": "private/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000151
+      },
+      "writtenOn": "2026-09-10T14:12:07Z",
+      "side": 1,
+      "message": "AttestationService reads net.pixelos.version and persist.sys.pihooks.disable.gms_props, so removing these rules drops the required system_server property access.",
+      "parentUuid": "963cfbf2_210f66bf",
+      "revId": "1e3002014520112406a061131e4207b305c696fe",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
