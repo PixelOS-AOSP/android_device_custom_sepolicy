@@ -1,0 +1,2 @@
+# Zygote reloads android.os.Build for DroidGuard with the sysprop overrides on
+get_prop(zygote, pif_prop)

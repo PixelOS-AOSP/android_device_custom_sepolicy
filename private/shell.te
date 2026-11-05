@@ -1,0 +1,2 @@
+# Let debug builds inspect the staged Play Integrity props
+userdebug_or_eng(`get_prop(shell, pif_prop)')

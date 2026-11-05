@@ -1,0 +1,2 @@
+# Stage the Play Integrity props that bionic serves to DroidGuard
+set_prop(system_server, pif_prop)
