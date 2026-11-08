@@ -12,3 +12,4 @@ ro.surface_flinger.blur_disabled_by_default u:object_r:surfaceflinger_prop:s0 ex
 persist.sys.pif.                       u:object_r:pif_prop:s0
 ro.appcompat_override.                 u:object_r:pif_prop:s0
 sys.pif.overrides                      u:object_r:pif_prop:s0 exact
+persist.sys.pihooks.disable.           u:object_r:pih_disable_prop:s0

@@ -1,2 +1,5 @@
 # Play Integrity staging props, served to DroidGuard by bionic
 system_internal_prop(pif_prop)
+
+# persist.sys.pihooks.disable.gms_props
+system_public_prop(pih_disable_prop)

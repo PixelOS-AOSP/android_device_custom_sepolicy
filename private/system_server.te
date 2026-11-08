@@ -1,2 +1,5 @@
 # Stage the Play Integrity props that bionic serves to DroidGuard
 set_prop(system_server, pif_prop)
+
+# Read the switch that turns the GMS fingerprint spoof off
+get_prop(system_server, pih_disable_prop)

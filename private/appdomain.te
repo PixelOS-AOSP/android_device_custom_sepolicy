@@ -1,0 +1,2 @@
+# Play Services and Play Store read the GMS fingerprint spoof switch
+get_prop(appdomain, pih_disable_prop)
